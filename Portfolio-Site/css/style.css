@@ -21,7 +21,7 @@ body {
 
 .luchadors {
     display: block;
-    width:100%;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -54,7 +54,6 @@ body {
 .nav-item-a {
     color: #ccffff;    
 }
-
 
 /*Footer*/
 footer {    
@@ -110,4 +109,3 @@ footer {
         width: 100%;
     }
 }
-
