@@ -1,0 +1,111 @@
+body {
+    font-family: "Lato", sans-serif;    
+    font-weight: 300;
+    color: #5e5a5a;
+    background: linear-gradient(#99c2ff, #b2ffff, #b2ffff);    
+}
+
+/*Header*/
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    margin-top: 20px;  
+}
+
+/*Main*/
+.text-muted {
+    color: #5e5a5a;
+}
+
+.luchadors {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.luchadors2 {
+    display: none;
+}
+
+/*Nav*/
+.nav {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: #ccffff;    
+}
+
+.nav-list {
+    width: 100%;
+    padding: 0;
+    margin: 0;    
+}
+
+.nav-item {
+    box-sizing: border-box;
+    display: inline-block;        
+    text-align: center;        
+    padding: 8px;      
+}
+
+.nav-item-a {
+    color: #ccffff;    
+}
+
+/*Footer*/
+footer {    
+    font-family: "Lato", sans-serif;    
+    font-weight: 300;    
+    margin-top: 20px;     
+    background-color: #d6f5f5;    
+    clear: both;
+    border: 1px solid lightgrey;
+}
+
+.foot-list {
+    width: 100%;
+    padding-top: 1%;
+    margin-left: 10%;
+    list-style-type: none;
+}
+
+.foot-list-a {
+    color: darkgoldenrod;     
+    text-align: center;
+}
+
+.foot-list-a:hover {
+    text-decoration: none;
+    color: aqua;
+}
+
+.foot-item {
+    margin-bottom: 1em;
+    vertical-align: middle;
+}
+
+/*Modal*/
+.modal-img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto; 
+    max-height: 225px;
+}
+
+/*Breakpoint*/
+@media screen and (max-width: 610px) {    
+    .nav {
+        display: none;
+    }
+    
+    .luchadors {
+        display: none;
+    }
+    .luchadors2 {
+        display: block;
+        width: 100%;
+    }
+}

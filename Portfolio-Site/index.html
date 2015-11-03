@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv = "X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Don's Portfolio</title>
+        <link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.css">      
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>        
+    </head>
+    <body>
+        <div class="container">
+            <header class="row">
+                <div class="col-md-6">                    
+                    <img class="img-responsive title-logo" src="lucha_suit.png" alt="Don's Logo">                                       
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="title-super">Don Petersen</h1>
+                    <h4>Front-end Luchador</h4>
+                </div>                
+            </header>
+            <main>
+                <div class="row">
+                    <div class="col-xs-12"><hr></div>                    
+                </div> 
+                <!--TODO: Make into working Nav bar when more all six projects are done-->
+                <nav id="drawer" class="row nav">
+                    <ul class="nav-list">
+                        <li class="col-md-12 col-md-3 nav-item"><a href="#" class="nav-item-a">This</a></li>
+                        <li class="col-md-12 col-md-3 nav-item"><a href="#" class="nav-item-a">Text</a></li>
+                        <li class="col-md-12 col-md-3 nav-item"><a href="#" class="nav-item-a">Is</a></li>
+                        <li class="col-md-12 col-md-3 nav-item"><a href="#" class="nav-item-a">Hidden</a></li>                        
+                    </ul>
+                </nav>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img class="img-responsive luchadors" src="luchadors.svg" alt="Lucha Banner">
+                        <img class="img-responsive luchadors2" src="luchadors_2.svg" alt="Breakpoint Lucha Banner">
+                    </div>                    
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 class="text-muted">Featured Work</h2>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img class="img-responsive modal-img" src="Mask_logo1.svg" alt="Blue/Yellow Lucha Mask" data-toggle="modal" data-target="#project1">
+                        <h3 class="text-uppercase">Web Dev</h3>                    
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-responsive modal-img" src="Mask_logo2.svg" alt="Blue/Pink Lucha Mask" data-toggle="modal" data-target="#project2">
+                        <h3 class="text-uppercase">GitHub</h3>                    
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-responsive modal-img" src="Mask_logo3.svg" alt="Red/YellowLucha Mask" data-toggle="modal" data-target="#project3">
+                        <h3 class="text-uppercase">Gallery</h3>                    
+                    </div>
+                </div>
+            </main>
+            <footer class="row">            
+                <div class="col-md-2">
+                    <ul class="foot-list">
+                        <li class="foot-item">
+                            <a href="https://www.linkedin.com/pub/don-petersen/b1/676/65" class="foot-list-a">
+                                <img class="foot-icons" src="icon-linkedin-small.png" alt="linkendin icon"> Linkendin
+                            </a>
+                        </li>
+                        <li class="foot-item">
+                            <a href="https://twitter.com/dizzymono?lang=en" class="foot-list-a">
+                                <img class="foot-icons" src="http://www.howell-marketing.com/wp-content/uploads/2011/10/twitter-icon1.gif" alt="twitter icon"> Twitter
+                            </a>
+                        </li>
+                        <li class="foot-item">
+                            <a href="https://github.com/howlinmad" class="foot-list-a">
+                                <img class="foot-icons" src="http://www.sematext.com/img/github.png" alt="github icon"> GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </div>                
+            </footer> 
+                    <!-- Modal -->
+            <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="skills-modal-label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="skills-modal-label">Skills</h4>
+                  </div>
+                  <div class="modal-body">
+                    <img class="img-responsive" src="elbow_drop.svg" alt="Elbow Drop">
+                    Droppin' elbows on HTML5, CSS3, and JavaScript
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+                    <!-- Modal -->
+            <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="github-modal-label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="github-modal-label">GitHub</h4>
+                  </div>
+                  <div class="modal-body">
+                    <img class="img-responsive" src="mask02.svg" alt="Red/Blue Lucha Mask">
+                      <p>A complete list of my previous work</p>
+                    <a href="https://github.com/howlinmad">https://github.com/howlinmad</a> 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+                    <!-- Modal -->
+            <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="gallery-modal-label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title" id="gallery-modal-label">Gallery</h4>
+                  </div>
+                  <div class="modal-body">
+                    <img class="img-responsive" src="mask03.svg" alt="Maroon/Green Lucha Mask">
+                    All art on website is orginal and created by me using piskel and adobe illustrator. 
+                      <a href="http://www.piskelapp.com/user/5800571604828160#">http://www.piskelapp.com/user/5800571604828160#</a>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>      
+         </div>               
+    </body>    
+</html>
